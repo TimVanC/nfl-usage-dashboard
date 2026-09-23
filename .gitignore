@@ -1,0 +1,24 @@
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# python
+etl/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+etl/.cache/
+etl/out/
+
+# node
+web/node_modules/
+web/.next/
+web/out/
+web/.vercel/
+*.tsbuildinfo
+npm-debug.log*
+
+# misc
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+nflreadpy>=0.1.5
+polars>=1.20
+pyarrow>=17
+numpy>=1.26
+psycopg[binary]>=3.2
+requests>=2.32
+python-dotenv>=1.0
+pytest>=8
